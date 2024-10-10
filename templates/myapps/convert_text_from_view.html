@@ -1,0 +1,18 @@
+{% extends '_frame.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+{% block content %}
+    <div class="page-wrapper" data-bs-theme="dark">
+        <div class="text-converter-box p-3 column">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% bootstrap_field form.text %}
+                {% bootstrap_button button_type="submit" content="UPLOAD" %}
+            </form>
+            {{ converted_text }}
+        </div>
+    </div>
+{% endblock %}
+{% block extra_css %}
+    <link href="{% static 'myapps/text_converter/text_converter_form_view.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}

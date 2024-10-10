@@ -1,0 +1,19 @@
+@import '../../custom/variables';
+
+body, html {
+  height: 100%;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.text-converter-box {
+  border-radius: 15px;
+  width: 500px;
+  background-color: $dark;
+}

@@ -1,0 +1,13 @@
+SECRET_KEY="django-infadskjhgdsakjghldaksjhgldkasjglkadsj"
+ALLOWED_HOSTS="['localhost', '127.0.0.1']"
+ALLOWED_CORS="['http://localhost:8000',' http://127.0.0.1:8000']"
+DEBUG=True
+
+WEB_PORT=8000
+
+PREFIX=conntelizer_1
+
+POSTGRES_DB=contelizer_db_1
+POSTGRES_USER=postgres_1
+POSTGRES_PASSWORD=jasdglkjhbfdcashjvdsahkgvcsadhkvdsahkvdsahkvdsah
+POSTGRES_HOST=contelizer_db_host_1
